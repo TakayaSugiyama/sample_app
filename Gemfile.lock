@@ -242,6 +242,7 @@ DEPENDENCIES
   minitest
   minitest-reporters
   pg
+  pry (~> 0.12.2)
   puma (~> 3.11)
   rails (~> 5.2.3)
   rails-controller-testing
