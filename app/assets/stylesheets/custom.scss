@@ -8,7 +8,8 @@ $gray-medium-light: #eaeaea;
 /* universal */
 
 body {
-  text-align: center
+  text-align: center;
+  margin: 0 auto;
 }
 
 section {
@@ -146,4 +147,12 @@ input, textarea, select, .uneditable-input {
 
 input {
   height: auto !important;
+}
+.btn {
+  background-color:blue;
+  color:#fff;
+}
+
+.new_user {
+  padding-right: 250px;
 }
