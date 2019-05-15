@@ -1,6 +1,6 @@
 class SessionsController < ApplicationController
   include SessionsHelper
-  helper_method :log_in,:current_user,:logged_in?
+  helper_method :log_in,:current_user,:logged_in?,:log_out
 
   def new
     @user = User.new
@@ -20,6 +20,7 @@ class SessionsController < ApplicationController
   end
 
   def destroy
-
+     log_out
+     redirect_to root_url
   end
 end
